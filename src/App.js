@@ -4,6 +4,7 @@ import "./App.css";
 import "./home.css";
 import Home from "./home";
 import Order from "./order";
+import Snake from "./snake";
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Home} />
             <Route path="/order" component={Order} />
+            <Route path="/games" component={Snake} />
           </Switch>
         </div>
       </Router>

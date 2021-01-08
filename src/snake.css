@@ -1,0 +1,30 @@
+body {
+  height: 929px;
+}
+
+.snakeGame {
+  margin: auto;
+  width: 42%;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 40px;
+}
+
+.start {
+  margin: auto;
+  width: 150px;
+}
+
+.start button {
+  padding: 5px 50px;
+}
+
+.gameover {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}

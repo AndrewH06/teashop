@@ -1,19 +1,51 @@
+header button {
+  margin: 0px 20px;
+}
+
+.orderHead {
+  margin: 0;
+  padding: 20px 0;
+  background: none;
+  color: #000000;
+}
+
 .products {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 3fr;
+  background-color: #ffffff;
 }
 
 .products img {
-  width: 300px;
+  width: 200px;
 }
 
 .product {
+  display: block;
   padding: 40px;
+  margin: 0px 150px 30px;
+  border-radius: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: none;
+}
+
+h4 {
+  font-size: 20px;
+  margin: none;
+}
+
+.btn-prod {
+  display: block;
+  margin: auto;
+  width: 150px;
+  margin-top: 20px;
 }
 
 button {
   font-size: 20px;
-  padding: 5px;
+  padding: 5px 10px;
 }
 
 header {
