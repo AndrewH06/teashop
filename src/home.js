@@ -8,7 +8,7 @@ function Home() {
     <Router>
       <body className="covered">
         <h1 className="welcome">Welcome to the Tea Shop!</h1>
-        <img className="bobashop" src={bobashop} />
+        <img className="bobashop" src={bobashop} alt="background" />
         <div className="enter">
           <Link className="btn" to="/order">
             Order Tea
