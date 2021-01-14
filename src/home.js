@@ -8,16 +8,12 @@ function Home() {
     <body className="covered">
       <h1 className="welcome">Welcome to the Tea Shop!</h1>
       <img className="bobashop" src={bobashop} alt="background" />
-      <div className="enter">
-        <Link className="btn" to="/order">
-          Order Tea
-        </Link>
-      </div>
-      <div className="enter">
-        <Link className="btn" to="/games">
-          Play Games
-        </Link>
-      </div>
+      <Link className="btn" to="/order">
+        <div className="enter">Order Tea</div>
+      </Link>
+      <Link className="btn" to="/games">
+        <div className="enter">Play Games</div>
+      </Link>
     </body>
   );
 }
