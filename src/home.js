@@ -14,6 +14,9 @@ function Home() {
       <Link className="btn" to="/games">
         <div className="enter">Play Games</div>
       </Link>
+      <a className="btn" href="https://www.p1coconuts.tk/">
+        <div className="enter">Teashop V2</div>
+      </a>
     </body>
   );
 }
