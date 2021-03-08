@@ -14,7 +14,7 @@ function Home() {
       <Link className="btn" to="/games">
         <div className="enter">Play Games</div>
       </Link>
-      <a className="btn" href="https://www.p1coconuts.tk/">
+      <a className="btn" href="https://coconuts-teashopv2.tk/">
         <div className="enter">Teashop V2</div>
       </a>
     </body>
